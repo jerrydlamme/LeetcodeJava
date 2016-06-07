@@ -20,3 +20,9 @@ class ListNode {
 	ListNode next;
 	ListNode(int x) { val = x; }
 }
+
+class TreeLinkNode {
+    int val;
+    TreeLinkNode left, right, next;
+    TreeLinkNode(int x) { val = x; }
+}
