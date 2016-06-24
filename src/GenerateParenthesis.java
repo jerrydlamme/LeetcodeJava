@@ -1,6 +1,13 @@
 import java.util.*;
 
 public class GenerateParenthesis {
+	
+	public static void main(String[] args) {
+		GenerateParenthesis gp = new GenerateParenthesis();
+	
+		System.out.println(gp.generateParenthesis(3));
+	}
+	
     public List<String> generateParenthesis(int n) {
         char[] roll = new char[2 * n];
         List<String> list = new LinkedList<String>();
