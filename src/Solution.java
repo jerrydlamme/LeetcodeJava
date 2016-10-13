@@ -10,9 +10,18 @@ public class Solution {
 
 class TreeNode {
 	int val;
+	int afterMe;
 	TreeNode left;
 	TreeNode right;
-	TreeNode(int x) { val = x; }
+	public TreeNode(int x) { val = x; }
+	
+	
+    public TreeNode(int val, int afterMe) {
+        this.val = val;
+        this.afterMe = afterMe;
+        this.left = null;
+        this.right = null;
+    }
 }
 
 class ListNode {
